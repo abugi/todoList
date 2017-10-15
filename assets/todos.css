@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Roboto;
+	background-image: url(images/Moor.jpg); 
+}
+h1{
+	background: #2980b9;
+	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
+	padding: 13px 13px 13px 20px;
+	text-transform: uppercase;
+}
+li{
+	list-style: none;
+	background: white;
+	height: 40px;
+	line-height: 40px;
+}
+li:nth-child(2n){
+	background: #F7F7F7;
+}
+input{
+	width: 85%;
+	height: 40px;
+	outline: none;
+	color: #2980b9;
+	padding: 5px 5px 5px 20px;
+	font-size: 18px;
+	background: #F7F7F7;
+	border: 3px solid #F7F7F7;
+}
+input:focus{
+	background: white;
+	border: 3px solid #2980b9;
+}
+ li span{
+	background: #e74c3c;
+	color: white;
+	display: inline-block;
+	height: 40px;
+	width: 0;
+	text-align: center;
+	margin-right: 10px;
+	transition: 0.4s;
+	opacity: 0;
+}
+li:hover span{
+	width: 35px;
+	opacity: 1.0;
+}
+#container{
+	width: 450px;
+	margin: 100px auto;
+	background: #F7F7F7;
+	box-shadow: 1px 1px 5px black;
+}
+
+#count{
+	background: #F7F7F7;
+	color: #2980b9;
+	display: inline-block;
+	height: 30px;
+	width: 10%;
+	text-align: center;
+	padding: 5px;
+}
+.lisToggle{
+	color: grey;
+	text-decoration: line-through;
+}
+
+.inputToggle{
+	display: none;
+}
+.fa-plus{
+	float: right;
+	padding-right: 20px;
+}
+
